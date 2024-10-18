@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1 id="site-title">Isaac Santt</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about" id="about-link">About</a></li>
+                    <li><a href="#projects" id="projects-link">Projects</a></li>
+                    <li><a href="#contact" id="contact-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="language-switch">
+            <button id="en-btn">🇺🇸 English</button>
+            <button id="pt-btn">🇧🇷 Português</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 id="about-title">About Me</h2>
+            <p id="bio">I'm a software engineer focused on frontend technologies.</p>
+        </section>
+
+        <section id="projects">
+            <h2 id="projects-title">Projects</h2>
+            <div class="project">
+                <h3 id="proj-1-title">Gasbot</h3>
+                <p id="proj-1-desc">A.</p>
+                <a href="https://gasbot.xyz" target="_blank" id="proj-1-link">View Live</a>
+            </div>
+            <div class="project">
+                <h3 id="proj-2-title">Checkbot</h3>
+                <p id="proj-2-desc">A Slack bot for accountability built with Golang and AWS Lambda.</p>
+                <a href="https://github.com" target="_blank" id="proj-2-link">View Code</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 id="contact-title">Contact Me</h2>
+            <p id="contact-info">Feel free to reach out via <a href="mailto:someone@example.com">email</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">© 2024 Isaac Santt</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
